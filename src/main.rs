@@ -1,4 +1,4 @@
-extern crate wasm_pack;
+extern crate wasm_pack; // :bm, 
 
 extern crate indicatif;
 #[macro_use]

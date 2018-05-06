@@ -1,3 +1,29 @@
+
+# ...
+这个库演示了如何用 rust 写一个 cli 工具, 生成脚手架, 基本就是用 Command 来 run sub process,
+copy, write files etc...
+
+
+
+
+## 3rd
+
+```raw
+* https://github.com/killercup/quicli
+  cli lib
+* https://github.com/mitsuhiko/indicatif
+  A command line progress reporting library for Rust
+
+```
+
+## todos:
+
+* npm package.json `files` field, include certain files when installed as dependency.
+* `npm pack`, Create a tarball from a package
+
+
+
+
 # 📦✨  wasm-pack
 > pack up the wasm and publish it to npm!
 

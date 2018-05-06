@@ -19,6 +19,7 @@ pub fn rustup_add_wasm_target() -> Result<(), Error> {
     pb.finish();
     if !output.status.success() {
         let s = String::from_utf8_lossy(&output.stderr);
+        // :todo, this ::cli shouldn't be a std lib func, where it got defined?
         Error::cli("Adding the wasm32-unknown-unknown target failed", s)
     } else {
         Ok(())
